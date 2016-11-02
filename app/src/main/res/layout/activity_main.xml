@@ -10,22 +10,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.wanko.FamilyApp.MainActivity">
 
-    <TextView
-        android:text="おばあちゃんからお小遣いをせびろう☆"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/main_tile"
-        android:textSize="19sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp" />
-
     <Button
-        android:text="すた〜と"
+        android:text="@string/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnStart"
         android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_tile"
+        android:textSize="19sp"
+        android:layout_marginTop="74dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
